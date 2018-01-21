@@ -4,38 +4,25 @@
 }
 
 body {
-	background-color: #070B19;
-	text-align: center;
+	background-image: url("files/matrix.jpg");
+	font-family: 'LucidaConsole';
 }
 
 h1 {
+	background-color: black;
 	color: green;
+	width: 300px;
+	height: 50px;
 	margin: auto;
 	margin-top: 50px;
 	margin-bottom: 75px;
-	font-family: 'LucidaConsole';
+	border: 3px solid green;
+	line-height: 50px;
+	text-align: center;
 }
 
 h2 {
-	color: #008000;
-	margin-top: 50px;
-	text-align: left;
-	margin-left: 15%;
-	font-family: 'LucidaConsole';
-}
-
-p {
-	color: #008000;
-	margin-top: 30px;
-	text-align: left;
-	margin-left: 15%;
-	font-family: 'LucidaConsole';
-}
-
-.ma_gueule {
-	object-fit: scale-down;
-	border-radius: 70%;
-	vertical-align: middle;
+	margin-top: 25px;
 }
 
 a:link {
@@ -46,10 +33,20 @@ a:visited {
 	color: #0099ff;
 }
 
+.texte{
+	background-color: black;
+	color: #008000;
+	border: 3px solid green;
+	margin-left: 10%;
+	padding : 10px;
+	text-align: left
+	max-width: 500 px;
+}
+
 .langue {
 	margin: auto;
 	margin-top: 90px;
 	text-align: center;
-	margin-bottom: 75px;
+	margin-bottom: 45px;
 	font-family: 'LucidaConsole';
 }
