@@ -35,13 +35,13 @@ a:visited {
 }
 
 .texte{
+	width: 80%;
 	background-color: black;
 	color: #008000;
 	border: 3px solid green;
 	margin-left: 10%;
 	padding : 10px;
 	text-align: left
-	max-width: 500 px;
 }
 
 .langue {
