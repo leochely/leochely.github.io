@@ -3,6 +3,7 @@
 	src: url('files/LucidaConsole.ttf') format('ttf');
 }
 
+
 body {
 	background-image: url("files/matrix.jpg");
 	font-family: 'LucidaConsole';
@@ -34,7 +35,7 @@ a:visited {
 	color: #0099ff;
 }
 
-.texte{
+.cadre{
 	width: 80%;
 	background-color: black;
 	color: #008000;
@@ -42,6 +43,7 @@ a:visited {
 	margin-left: 10%;
 	padding : 10px;
 	text-align: left
+	height: auto;
 }
 
 .langue {
@@ -61,4 +63,20 @@ a:visited {
 	margin-right: 20px;
 	margin-top: 10px;
 	padding-left:15px;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:40%%;
+	height:40%;
 }
