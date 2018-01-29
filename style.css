@@ -36,6 +36,7 @@ a:visited {
 }
 
 .cadre{
+	position: relative;
 	width: 80%;
 	background-color: black;
 	color: #008000;
@@ -67,6 +68,7 @@ a:visited {
 
 .video-container {
 	position:relative;
+	float:right;
 	padding-bottom:56.25%;
 	padding-top:30px;
 	height:0;
