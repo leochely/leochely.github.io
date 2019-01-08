@@ -1,66 +1,722 @@
 <!DOCTYPE html>
-<html lang="en">
-<link rel="icon" type="image/ico" href="favicon.ico" />
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-        <meta charset="utf-8" />
-	<meta name="google-site-verification" content="fqGSZwd6myhw_2JOlCOPbSYh0QLX-VfqULhn2HAYbuc" />
-	<meta name=”Leo Chely page perso” content=”Personal website of Leo Chely, student in Computer Sciences and soccer player” />
-	<meta name=”Leo Chely student” content=”soccer, football, étudiant, computer science, goalkeeper,resume” />
-	<link rel="French Version" hreflang="fr" href="fr.html" />
-	
-        <link rel="stylesheet" href="style.css" />
 
-        <title>L&eacute;o Chely</title>
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>L&eacute;o Chely</title>
+	<meta name="description" content="Leo Chely's personnal webpage.">
+	<meta name="author" content="Leo Chely">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image" href="favicon.ico">
+
 </head>
 
-<body>
+<body id="top">
 
-	<h1 class="titre"> &#8356;30 (h3&#8356;&#165; </h1>
-	
-	
-	<div class = "cadre">
-	<img class="moi" src = "files/Leo_Chely.png" alt = "Leo Chely" width="150" height="240">
-	<h2> >_ About me </h2>
+	<!-- header
+   ================================================== -->
+   <header>
+   	<div class="row">
 
-	<p> Hello World! I'm Leo Chely, computer science student at Colorado School of Mines.</p>
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-	<h2> >_ Resume </h2>
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>
+					</ul>
+				</nav>
+   		</div> <!-- /top-bar -->
 
-	<p>Here is my resume <a href="files/CV.pdf">in English</a
-	> and <a href="files/CV_FR.pdf">in French</a>.</p>
+   	</div> <!-- /row -->
+   </header> <!-- /header -->
 
-	<h2> >_ Links </h2>
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">
 
-	<p> <a href="http://youtube.com/leochely"> My YouTube channel</a> <br/>
-	<a href="https://aviondeverre.wixsite.com/aviondeverre"> My high school TPE (Travail Personnel Encadr&eacute;) </a> <br/>
-	<a href="http://www.midilibre.fr/2016/10/29/atlas-paillade-m-on-amour,1417023.php"> An article about me in the Midi Libre</a> </br>
-	<a href="https://github.com/leochely/"> My GitHub</a> </br>
-	<a href = "https://www.linkedin.com/in/leochely/"> My LinkedIn </a></p> 
-	
-	<h2> >_ Contact </h2>
-	<form action = "https://formspree.io/leo.chely@live.fr" method = "POST">
-		<div>
-			<label for = "name"> Name </label>
-			<input type = "text" id = "name" name = "userName">
-		</div>
-		<div>
-			<label for = "name"> Email </label>
-			<input type = "email" id = "email" name = "userEmail">
-		</div>
-		<div>
-			<label for = "name"> Message </label>
-			<textarea id = "message" name = "userMessage"></textarea>
-		</div>
-		<div class = "button">
-			<button type = "submit">Send</button>
-		</div>
-	</form>
-</div>
+   	<div class="intro-overlay"></div>
 
-<footer>
-<p class="langue"> Do you want to read it <a href="fr.html"> in French? </a> </p>
-</footer>
+   	<div class="intro-content">
+   		<div class="row">
 
+   			<div class="col-twelve">
+
+	   			<h5>Hello World.</h5>
+	   			<h1>I'm L&eacute;o Chely.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Computer Science Student</span>
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>
+
+   		</div>
+   	</div> <!-- /intro-content -->
+
+   	<ul class="intro-social">
+        <li><a target="blank" href="http://www.youtube.com/leochely"><i class="fa fa-youtube"></i></a></li>
+        <li><a target="blank" href="http://www.github.com/leochely"><i class="fa fa-github"></i></a></li>
+        <li><a target="blank" href="http://www.linkedin.com/in/leochely"><i class="fa fa-linkedin"></i></a></li>
+
+      </ul> <!-- /intro-social -->
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead">I'm L&eacute;o Chely, computer science student and soccer player.</p>
+   			</div>
+
+   		</div>
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+   			<p>Passionate and motivated, I'm currently studying in order to get my Computer Science degree from Colorado School of Mines. I also have a strong sport background as I played at the highest youth soccer level in France and in the USA.</p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>L&eacute;o Nathan Chely</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>April 9, 1998</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>leochely@mymail.mines.edu</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+   			<p>I am always looking for new technologies to discover and new skills to master, here are some of the ones I have already started to learn.</p>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>Python</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent80"><span>80%</span></div>
+				   	<strong>C++</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent80"><span>80%</span></div>
+				   	<strong>Java</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>Web Development</strong>
+				   </li>
+				   <li>
+
+				   	<div class="progress percent95"><span>95%</span></div>
+				   	<strong>Goalkeeping</strong>
+				   </li>
+
+				</ul> <!-- /skill-bars -->
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="resume/CV.pdf" target="_blank" title="Download CV" class="button button-primary">Resume</a>
+   			<a href="resume/CV_FR.pdf" target="_blank" title="Download CV" class="button button-primary">Resume (in French)</a>
+   		</div>
+   	</div>
+
+   </section> <!-- /process-->
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">I know you are on this page because you want to learn more about my exciting life, know where I have been and what I have experienced.<br>
+           So here you are.</p>
+
+   		</div>
+   	</div> <!-- /section-intro-->
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>IT Assistant</h3>
+	   					<p>May - August 2017</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Ministry of Culture, Montpellier</h4>
+	   					<p>For my second internship in the ministry of Culture, I helped the IT service head in his job:
+                I was in charge of managing the hardware inventory so I developped a database system to make our job easier
+                and allow a more conveniant tracking for future employees.<br>
+                Alongside this task, I provided IT support to the other employees. I had to solve software issues
+                (virus attack, troubles with softwares, preparing computers and account for new employees,..) as well as hardware issues
+                (old computers needing new parts, network to setup in new offices, printers to fix...).<br>
+                I also was in charge of a visiting high school student for a week.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>IT Assistant</h3>
+	   					<p>June - August 2016</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Ministry of Culture</h4>
+	   					<p>Similar as my second internship described above. This year we had more visits to conduct in the UDAPs
+                (Department unit of architeture and cultural heritage) in order to fix issues or provide them new computers or softwares.
+              </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Math and Physics Teacher</h3>
+	   					<p>During summer breaks</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Freelance</h4>
+	   					<p>Math and Physics tutoring for French high school or university students in my hometown of Montpellier.
+                Preparation for baccalaureate exam, taking a lead or catching up before university starts, I helped students reach
+                their academic goals in math and physics (the two classes I used to ace when I was in high school and then prep school).
+              </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->
+
+   		</div> <!-- /col-twelve -->
+
+   	</div> <!-- /resume-timeline -->
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Computer Science + Robotics and Intelligent Systems Bachelor Degree</h3>
+	   					<p>August 2016 - May 2020</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Colorado School of Mines</h4>
+	   					<p>I follow the Robotics and Intelligent Systems of the CS degree because I am fascinated with artificial
+                intelligence and machine learning so I wanted to get more knowledge on these subjects. I am also taking classes
+                on cryptography and other interesting and useful topics such as game design or web development thanks to the freedom
+                allowed by this program.<br>
+                Current GPA: 3.1</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Preparatory School</h3>
+	   					<p>September 2015 - June 2016</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>CPGE Joffre, Montpellier (France)</h4>
+	   					<p>During this year in the elitist French preparatory school, I followed the math/physics and engineering sciences
+              track with the cmoputer science option. I retain from this experience the ablity to handle huges charge of work
+              (34 hours of classes/week + oral interrogations and weekend 4 hours exams) as well as an improved time management
+              skill. As a matter of fact, I kept playing high level soccer alongside this heavy school sechedule so I needed to become
+              more effective and organized to keep up with both academic and athletic schedules</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Baccalaureate</h3>
+	   					<p>July 2015</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Lyc&eacute;e Notre-Dame de la Merci, Montpellier (France)</h4>
+	   					<p>I earned my European high school diploma with the highest mention ("Tr&egrave;s Bien" if any French enthusiast here
+                wanted to know). I obtained the highest possible grade in math and physics and I produced a group research work about planes
+                and glass. We presented our approach and our results
+                <a href="https://aviondeverre.wixsite.com/aviondeverre" target="_blank">here</a>!</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->
+
+   		</div> <!-- /col-twelve -->
+
+   	</div> <!-- /resume-timeline -->
+
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Works.</h1>
+
+   			<p class="lead">You can find most of them on my <a href="https://github.com/leochely" target="_blank">GitHub Page</a>
+        but here are some amazing pictures to tease you.</p>
+
+   		</div>
+   	</div> <!-- /section-intro-->
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/asad.png" alt="AsadWebsite">
+	                  <a href="#modal-01" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Asad</h3>
+		     					    	 <span class="folio-types">
+		     					       	  Website for a singer
+		     					       </span>
+		     					   </div>
+	                     </div>
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/clue.png" alt="clue">
+	               	<a href="#modal-02" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Clue Game</h3>
+		     					    	<span class="folio-types">
+		     					       	  Game made in Java following the Agile principles
+		     					      </span>
+		     					   </div>
+	                     </div>
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/taquin.png"alt="taquin">
+	                  <a href="#modal-03" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Tiles Puzzle Game</h3>
+		     					    	<span class="folio-types">
+		     					       	  Game made using the SFML library
+		     					      </span>
+		     					   </div>
+	                     </div>
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+              <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/youtube.png" alt="clue">
+	               	<a href="#modal-04" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Youtube Channel</h3>
+		     					    	<span class="folio-types">
+                          Soccer
+		     					      </span>
+		     					   </div>
+	                     </div>
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/asad.png" alt="" />
+				     	</div>
+
+					   <div class="description-box">
+					      <h4>Asad Website</h4>
+					      <p>Website developped as a showcase for a debuting singer and graphist. His work is regularly updated as he is very productive
+                so check it out if you like rap music!</p>
+
+					      <div class="categories">Web Development</div>
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.github.com/leochely/asad">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/clue.png" alt="" />
+				     	</div>
+
+					   <div class="description-box">
+					      <h4>Clue Game</h4>
+					      <p>Game made in duo following Agile principles and test-driven development with JUnit tests.
+                  The game is fully playable against CPU opponents.</p>
+
+					      <div class="categories">Java</div>
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.github.com/leochely/">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/taquin.png" alt="" />
+				     	</div>
+
+					   <div class="description-box">
+					      <h4>Tiles Puzzle Game</h4>
+					      <p>My first game, made in C++ using the SFML library for the GUI. The game generates a randm grid and the goal in
+                to put the numbers back in order. </p>
+
+					      <div class="categories">C++</div>
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.github.com/leochely/taquin">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>
+
+				   </div> <!-- /modal-04 -->
+
+           <div id="modal-04" class="popup-modal slider mfp-hide">
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/youtube.png" alt="" />
+				     	</div>
+
+					   <div class="description-box">
+					      <h4>Youtube Channel</h4>
+					      <p>My Soccer Youtube Channel. I've uploaded full games and highlights for the last 5 years.</p>
+
+					      <div class="categories">Soocer</div>
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.youtube.com/leochely">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>
+
+				   </div> <!-- /modal-03 -->
+
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper -->
+
+   		</div>  <!-- /twelve -->
+
+   	</div> <!-- /portfolio-content -->
+
+	</section> <!-- /portfolio -->
+
+
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Services</h5>
+   			<h1>What Can I Do For You?</h1>
+
+   			<p class="lead">I am always eager of resolving new challenges! If you have a project, I can help you realize it.</p>
+
+   		</div>
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-window"></i></span>
+
+	            <div class="service-content">
+
+	            	<h3>Web Development</h3>
+
+		            <p class="desc">Do you want a website as cool looking and as functional as this one? I can make it!
+
+	         		  </p>
+
+	            </div>
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-cursor"></i></span>
+
+	            <div class="service-content">
+
+	            	<h3>Software Development</h3>
+
+		            <p class="desc">You are looking to add another developper to your team? You have an idea for a new software and you want
+                  someone to develop it? I can fit in a team as well as I can conduct a small project by myself so I can adapt to your needs.
+	        			</p>
+
+	            </div>
+
+			   </div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-book"></i></span>
+
+	            <div class="service-content">
+
+	            	<h3>Tutoring</h3>
+
+		            <p class="desc">If you are looking for a tutor in Math/Physics/Computer Science for your children, I can provide
+                  courses in both French and English. I have already helped students up to university level to get better in these classes.
+
+                </p>
+
+	            </div>
+
+        </div> <!-- /service -->
+
+	     </div> <!-- /services-list -->
+
+   	</div> <!-- /services-content -->
+
+	</section> <!-- /services -->
+
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   		</div>
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            Arvada (CO) and Montpellier (France)
+          </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p id="mail"><a href="mailto:leochely@mymail.mines.edu">leochely@mymail.mines.edu</a><br>
+			   	<a href="mailto:leo.chely@live.fr">leo.chely@live.fr</a>
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>France: (+33) 7 67 34 49 45<br>
+			   	USA: (+1) 303 999 6596
+			  </p>
+
+   		</div>
+
+   	</div> <!-- /contact-info -->
+
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">
+			      <li><a target="_blank" href="http://www.youtube.com/leochely"><i class="fa fa-youtube"></i></a></li>
+            <li><a target="_blank" href="http://www.github.com/leochely"><i class="fa fa-github"></i></a></li>
+            <li><a target="_blank" href="http://www.linkedin.com/in/leochely"><i class="fa fa-linkedin"></i></a></li>
+
+			   </ul>
+
+       </div>
+
+      </div> <!-- /row -->
+   </footer>
+
+   <div id="preloader">
+    	<div id="loader"></div>
+   </div>
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
-</html> 
+
+</html>
