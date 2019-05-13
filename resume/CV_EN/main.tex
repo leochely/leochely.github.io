@@ -1,0 +1,97 @@
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\usepackage{xspace}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.95]{geometry}
+\usepackage{fontawesome}
+\setlength{\hintscolumnwidth}{2.5cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{L\'eo}{Chely}
+\title{Computer Science Major at Colorado School of Mines}
+\extrainfo{\faHome\space 12600 W80th Ave.\\
+80005 Arvada, CO\\
+\faMobile\space (303) 999-6596\\
+\faEnvelope\space leochely@mymail.mines.edu\\
+\faMousePointer\space leochely.github.io\\
+\faGithub\space github.com/leochely\\
+\faLinkedin\space linkedin.com/in/leochely}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\vspace*{-8mm}
+\makecvtitle
+
+\section{Education}
+\cventry{2016--2020}{Computer Science + Robotics and Intelligent Systems}{Colorado School of Mines}{GPA: 3.1}{}{}
+\cventry{2015--2016}{Preparatory School MPSI (Math and Physics)}{Lycée Joffre}{Montpellier, France}{}{}
+\cventry{2015}{European Scientific Baccalaureate}{Lycée Notre-Dame de la Merci}{Montpellier}{Highest Mention}{}
+
+\section{Projects}
+\cventry{2018-2019}{Web Development}{}{}{}{
+\begin{itemize}
+    \item Application portal for a truck driver company. Application page and admin website for applications management
+    \item Portfolio websites: personal webpage and websites for artist and photographer
+    \item MinesCourseDB: Online database similar to IMDb storing courses taught at Mines, teachers and departments with student reviews
+\end{itemize}}
+
+\cventry{2018}{Guitar Hero in Python for Raspberry Pi}{}{}{}{
+\begin{itemize}
+    \item Multidisciplinary team: Mechanical, Computer Science and Physics majors
+    \item Conception of a special controller to play the game
+    \item In charge of coding the game, managing multi-threading and handling inputs from the controller
+\end{itemize}}
+
+\cventry{2018}{Clue in Java}{}{}{}{
+\begin{itemize}
+\item Pair programming
+\item Test-Driven Development 
+\item Agile principles learned and applied throughout the development semester
+\end{itemize}}
+
+\cventry{2017}{Image puzzle in C++}{}{}{}{
+\begin{itemize}
+    \item Introduction project to C++ en OOD
+    \item GUI programmed with SFML library
+\end{itemize}}
+
+\section{Experience}
+\cventry{Summer 2019}{Webroot}{Broomfield, CO}{Intern}{Cybersecurity internship as a part of the mobile team}{}
+\cventry{January - May 2019}{Colorado School of Mines}{Golden, CO}{Teaching Assistant for Programming Concepts class}{Exams and assignments grading, tutoring hours for students}{}
+\cventry{Summer 2017}{Ministry of Culture}{Montpellier, France}{IT Assistant}{Inventory database conception and management}{}
+\cventry{Summer 2016}{Ministry of Culture}{Montpellier, France}{IT Assistant}{Installed new computers and dismounted old ones}{}
+
+\section{Computer Skills}
+\cventry{}{Python, Java, C++, Ocaml}{}{}{}{}
+\cventry{}{SQL, MySQL, Web Languages (HTML, CSS, Javascript, Php)}{}{}{}{}
+\cventry{}{Office, LaTeX, Photoshop, Certification Solidworks Associate}{}{}{}{}
+
+\section{Volunteering and Organizations}
+\cventry{2017--2019}{French Club}{Colorado School of Mines}{Founder and vice president}{}{}
+\cventry{2016--2019}{Goalkeeper coach}{Centre Formation du Gardien de But}{Cavaillon, France}{Coaching and in charge of recording trainings, montage and DVD creation for soccer camps}{}
+\cventry{2004--2019}{Soccer Goalkeeper}{}{}{Played at National Level in both USA and France}{}
+
+
+\section{Hobbies and interests}
+\cventry{}{Interests}{Computers, Soccer, Foreign Languages (fluent English and French, basic Knowledge in Spanish, Arabic and Chinese)}{}{}{}
+\cventry{}{Hobbies}{Soccer, Video Game Emulation on Raspberry Pi and PC, Video Games}{}{}{}
+
+\end{document}
