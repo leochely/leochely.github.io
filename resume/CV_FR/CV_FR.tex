@@ -1,0 +1,97 @@
+\documentclass[10pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\usepackage{xspace}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[top=1.5cm, bottom=0.5cm, left=0.7cm, right=0.7cm]{geometry}
+\usepackage{fontawesome}
+\setlength{\hintscolumnwidth}{2.58cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{L\'eo}{Chely}
+\title{\'Etudiant \`a Colorado School of Mines (USA)}
+\extrainfo{\faHome\space 25 Chemin de Val\`ene, Combaillaux\\
+\faMobile\space 06 82 33 20 00\\
+\faEnvelope\space leochely@mymail.mines.edu\\
+\faMousePointer\space leochely.github.io\\
+\faGithub\space github.com/leochely\\
+\faLinkedin\space linkedin.com/in/leochely}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\vspace*{-14mm}
+\makecvtitle
+\vspace*{-2.3\baselineskip}
+\section{Parcours scolaire}
+\cventry{2016--2020}{Bachelor: Computer Science + Robotics and Intelligent Systems}{Colorado School of Mines}{Golden (USA)}{}{GPA: 3.1}
+\cventry{2015--2016}{Classe Pr\'eparatoire aux Grandes Écoles  MPSI}{Lyc\'ee Joffre}{Montpellier}{}{Option Informatique}
+\cventry{2015}{Baccalaur\'eat scientifique}{Lyc\'ee Notre-Dame de la Merci}{Montpellier}{}{Mention Tr\`es Bien}
+
+\section{Projets personnels et scolaires}
+\cventry{2018--Maintenant}{D\'eveloppement Web}{}{}{}{
+	\begin{itemize}
+		\item Mines Crowdsourcing: cr\'eation d'un site de crowdsourcing pour Colorado School of Mines afin que les chercheurs puissent publier des t\^aches que les \'el\`eves peuvent compl\'eter afin d'\^etre r\'emun\'er\'es. R\'ealis\'e avec Django et Bootstrap 
+		\item Plateforme de candidature pour une entreprise de transport routier. R\'ealis\'e avec Django et Bootstrap
+		\item MinesCourseDB: Base de donn\'ees en ligne recensant les cours enseign\'es \`a Colorado School of Mines
+	\end{itemize}}
+
+\cventry{2018}{Guitar Hero en Python pour Raspberry Pi}{}{}{}{
+	\begin{itemize}
+		\item Groupe multidisciplinaire: \'el\`eves issus des d\'epartement d'Informatique, M\'ecanique et \'Electricit\'e
+		\item Conception d'une manette de jeu adapt\'ee
+		\item Responsable de la programmation du jeu et de la r\'eception des entr\'ees via le GPIO du Raspberry Pi
+	\end{itemize}}
+
+\cventry{2018}{Cluedo en Java}{}{}{}{
+	\begin{itemize}
+		\item Programmation en paire de d\'eveloppeurs 
+		\item Principes Agile et TDD appliqu\'es tout au long du d\'eveloppement 
+	\end{itemize}}
+
+\cventry{2017}{Jeu de Taquin en C++}{}{}{}{
+	\begin{itemize}
+		\item Projet d'introduction au langage C++ et \`a la POO
+		\item Interface graphique r\'ealis\'ee avec la biblioth\`eque SFML
+	\end{itemize}}
+
+\section{Exp\'eriences professionelles}
+\cventry{2019--Maintenant}{Professeur Assistant}{Colorado School of Mines}{Golden (USA)}{}{Notation des examens et devoirs ainsi que permanence aupr\`es des \'el\`eves pour le cours de Programming Concepts. Lead grader des examens et projets depuis janvier 2020}
+\cventry{\'Et\'e 2019}{D\'eveloppeur Stagiaire}{Webroot}{Broomfield (USA)}{}{Contributions aux projets de l'\'equipe backend des produits Android. Cr\'eation et maintenance de microservices et d'API utilisables par les autres \'equipes de d\'eveloppement}
+
+\section{Comp\'etences}
+\cvitem{Programmation}{Python, C++, Go, Java, OCaml}
+\cvitem{}{MySQL, Langages web (HTML, CSS, Javascript, Php), Console AWS, Docker}
+\cvitem{Langues}{Anglais (Bilingue), Espagnol (B1), Arabe et Chinois (bases)}
+\cvitem{Autres}{Suite Office, LaTeX, Photoshop, Solidworks}
+
+\section{Certifications et R\'ecompenses}
+\cventry{D\'ecembre 2019}{Cyber Defense Education Certificate}{NSA et U.S. Department of Homeland Security}{}{}{}
+\cventry{2017}{Bourse C-MAPP}{Enverus}{}{}{R\'ecompense attribu\'ee aux \'el\'eves les plus m\'eritants du d\'epartement par des soci\'et\'es partenaires}
+
+\section{Exp\'eriences personnelles, b\'en\'evolat}
+\cventry{2017--2019}{Club Fran\c{c}ais}{Colorado School of Mines}{Golden (USA)}{}{Cofondateur et vice-pr\'esident}
+\cventry{2016--2019}{Entraineur de gardiens de but}{Centre Formation du Gardien de But}{Cavaillon}{}{Intervenant sur les stages et responsable vid\'eo/montage}
+\cventry{Depuis 2004}{Gardien de but}{}{}{}{Niveau national en France et USA}
+
+
+\section{Loisirs et centres d'intérêt}
+\cvitem{}{Informatique, Football, Jeux Vid\'eos, Power Metal}
+
+\end{document}
