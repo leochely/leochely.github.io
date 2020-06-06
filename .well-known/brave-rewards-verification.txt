@@ -1,4 +1,5 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: leochely.github.io
-Token: 3308d9571320ac40b7acf854644220f5b1a153f6305711493b39ab1923067579
+Token: leochely.github.io 
+Token: 5b7f36451fe0c98d26cb2dce9eb9470474ae2c7f852cbb5b70da1d6bc1570ed0
