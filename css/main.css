@@ -63,6 +63,15 @@ a:hover, a:focus, a:active {
 	outline: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+	a, a:visited {
+		color: #FFFFFF;
+	}
+	a:hover, a:focus, a:active {
+		color: #4fbb2f;
+	}
+}
+
 /**
  * ===================================================================
  * 03. typography & general theme styles - (_document-setup.scss)
@@ -713,6 +722,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	padding: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+	button.stroke, .button.stroke {
+		color: #bfbfbf;
+		border: 3px solid #bfbfbf;
+	}
+}
 
 /**
  * ===================================================================
@@ -960,6 +975,24 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	content: "";
 }
 
+@media (prefers-color-scheme: dark) {
+	.skill-bars li {
+		background: #313131;
+	}
+	.skill-bars li strong {
+		color: #a1a1a1;
+	}
+	.skill-bars li .progress {
+		background: #a1a1a1;
+	}
+	.skill-bars li .progress span {
+		background: #a1a1a1;
+	}
+	.skill-bars li .progress span::after {
+		border-top: 5px solid #313131;
+	}
+}
+
 .skill-bars li .percent5   { width: 5%; }
 .skill-bars li .percent10  { width: 10%; }
 .skill-bars li .percent15  { width: 15%; }
@@ -994,6 +1027,22 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .grey-section p.lead {
 	color: #7d7d7d;
 }
+
+@media (prefers-color-scheme: dark) {
+	.grey-section {
+		background: #1a1a1a;
+	}
+	.grey-section p.lead {
+		color: #999999;
+	}
+	.grey-section a, .grey-section a:visited{
+		color: #e6e6e6;
+	}
+	.grey-section a:hover{
+		color: #4fbb2f;
+	}
+}
+
 .section-intro {
 	max-width: 700px;
 	margin-left: auto;
@@ -1015,6 +1064,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
 	letter-spacing: .4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+	.section-intro h1{
+		color: #bfbfbf;
+	}
 }
 
 /**
@@ -1533,6 +1588,21 @@ header .logo a {
 	margin-right: 4rem;
 }
 
+@media (prefers-color-scheme: dark) {
+	#about {
+		background: #0d0d0d;
+	}
+	.about-content .info-list li strong {
+		color: #d9d9d9;
+	}
+	.about-content h3 {
+		color: #999999;
+	}
+	.about-content p {
+		color: #999999;
+	}
+}
+
 /**
  * responsive:
  * about
@@ -1669,10 +1739,16 @@ header .logo a {
 	display: block;
 	height: 3px;
 	width: 50px;
-	background: rgba(0, 0, 0, 0.2);
+	background: #e6e6e6;
 	position: absolute;
 	left: 0;
 	bottom: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	#resume .timeline-header h3,h4 {
+		color: #bfbfbf;
+	}
 }
 
 /**
@@ -1835,7 +1911,11 @@ header .logo a {
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
 }
-
+@media (prefers-color-scheme: dark) {
+	#portfolio {
+		background: #000000;
+	}
+}
 /**
  * responsive:
  * portfolio
@@ -1932,6 +2012,18 @@ header .logo a {
 	.popup-modal {
 		width: auto;
 		margin: 0 20px;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.popup-modal {
+		background: #000000;
+	}
+	.popup-modal .link-box {
+		background: #cccccc;
+	}
+	.popup-modal .link-box a {
+		color: #000000;
 	}
 }
 
